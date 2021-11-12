@@ -1,0 +1,5 @@
+Para hacer video:
+ffmpeg -framerate 21 -i ./frames/swh_%3d.png -c:v h264 -r 30 -s 1280x720 ./swh.mp4
+
+Para subir a twitter:
+ffmpeg -i swh.mp4 -c:v libx264 -crf 20 -preset slow -vf format=yuv420p -c:a aac -movflags +faststart swh_output.mp4
