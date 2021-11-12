@@ -7,8 +7,8 @@ Estaré aquí subiendo los mapas correspondientes al desafío de [tjukanovt](htt
 Por otro lado, los mapas que he ido realizando son los siguientes:
 
 <p float="left">
-  <img src="maps/30DayMapChallengeDay01.png" width="390" height="200" />
-  <img src="maps/30DayMapChallengeDay02.png" width="390" height="200" />
+  <img src="maps/30DayMapChallengeDay01.png" width="390" height="260" />
+  <img src="maps/30DayMapChallengeDay02.png" width="390" height="260" />
   <img src="maps/30DayMapChallengeDay03.png" width="390" height="200" />
   <img src="maps/30DayMapChallengeDay04.png" width="390" height="200" />
   <img src="maps/30DayMapChallengeDay05.png" width="390" height="200" />
