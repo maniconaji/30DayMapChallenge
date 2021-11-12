@@ -1,0 +1,135 @@
+{
+  "CAMERA": "ORTHO",
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "slope_098941d1_5270_4a81_af42_a05f44eb03b6",
+      "name": "slope",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "azimut_315_45db935e_8233_499d_9f88_784b6d26f1d7",
+      "name": "azimut_315",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "azimut_260_8e8ec2ff_381d_4734_a81b_79085012a41a",
+      "name": "azimut_260",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "azimut_215_05dcd633_992c_4f55_8cf0_8027fe2782de",
+      "name": "azimut_215",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "azimut_170_742c8e39_498c_4ee7_a972_9152758a6d09",
+      "name": "azimut_170",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "azimut_0_e387927c_4316_412f_97e8_c2da8d2400a8",
+      "name": "azimut_0",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "clipped_33db7da1_4905_471e_b302_27e519d5891d",
+      "name": "clipped",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": null,
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": true,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": null,
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 2,
+        "layerImageIds": [
+          "clipped_5c8cd79e_05ee_453c_b4b0_4af831eea3b2"
+        ],
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "D:/projects/GITHUB/30DayMapChallenge/mapas\\30DayMapChallenge11.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": false,
+    "checkBox_Outline": false,
+    "checkBox_autoZShift": true,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_CenterX": "-71.03319436250018",
+    "lineEdit_CenterY": "-34.42791662050001",
+    "lineEdit_Height": "1.3553931276284459",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "2.1501668386796666",
+    "lineEdit_zFactor": "0.000025",
+    "lineEdit_zShift": "0"
+  },
+  "Template": "3DViewer(dat-gui).html",
+  "Title": "30DayMapChallenge",
+  "WIDGETS": {
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  }
+}
