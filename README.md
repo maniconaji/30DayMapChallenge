@@ -10,10 +10,10 @@ Por otro lado, los mapas que he ido realizando son los siguientes:
   <img src="maps/30DayMapChallengeDay01.png" width="260" height="200" />
   <img src="maps/30DayMapChallengeDay02.png" width="260" height="200" />
   <img src="maps/30DayMapChallengeDay03.png" width="260" height="200" />
-  <img src="maps/30DayMapChallengeDay04.png" width="300" height="230" />
-  <img src="maps/30DayMapChallengeDay05.png" width="300" height="230" />
-  <img src="maps/30DayMapChallengeDay06.png" width="300" height="230" />
-  <img src="maps/30DayMapChallengeDay0708.png" width="575" height="230" />
-  <img src="maps/30DayMapChallengeDay09.png" width="325" height="230" />
-  <img src="maps/30DayMapChallengeDay11.png" width="300" height="230" />
+  <img src="maps/30DayMapChallengeDay04.png" width="260" height="200" />
+  <img src="maps/30DayMapChallengeDay05.png" width="260" height="200" />
+  <img src="maps/30DayMapChallengeDay06.png" width="260" height="200" />
+  <img src="maps/30DayMapChallengeDay0708.png" width="500" height="200" />
+  <img src="maps/30DayMapChallengeDay09.png" width="260" height="200" />
+  <img src="maps/30DayMapChallengeDay11.png" width="260" height="200" />
 </p>
