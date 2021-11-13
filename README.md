@@ -16,4 +16,5 @@ Por otro lado, los mapas que he ido realizando son los siguientes:
   <img src="maps/30DayMapChallengeDay0708.png" width="500" height="200" />
   <img src="maps/30DayMapChallengeDay09.png" width="280" height="200" />
   <img src="maps/30DayMapChallengeDay11.png" width="260" height="200" />
+  <img src="maps/30DayMapChallengeDay12.png" width="260" height="200" />
 </p>
