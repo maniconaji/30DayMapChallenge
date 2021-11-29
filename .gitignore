@@ -8,3 +8,4 @@ mapas_atributos
 gdalwmscache
 *.qto3settings
 *.js
+.Rproj.user

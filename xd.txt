@@ -1,0 +1,35 @@
+rm(list = ls())
+
+install.packages("tictoc")
+library(tictoc)
+
+packages <- c(
+  "rstudioapi", 
+  "tidyverse", 
+  "magrittr", 
+  "lintr", 
+  # "sf",
+  "raster", 
+  "viridis", 
+  "cowplot",
+  'Rcpp',
+  "rmarkdown",
+  "sf"
+)
+
+tic("for loop")
+libraries <- function(packages){
+  for(package in packages){
+    #checks if package is installed
+    if(!require(package, character.only = TRUE)){
+      #If package does not exist, then it will install
+      install.packages(package, dependencies = TRUE)
+      #Loads package
+      library(package, character.only = TRUE)
+    }
+  }
+}
+libraries(packages)
+
+toc(log = TRUE)
+log.txt <- tic.log(format = TRUE)

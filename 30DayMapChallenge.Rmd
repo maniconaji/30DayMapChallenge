@@ -1,0 +1,44 @@
+---
+title: "30DayMapChallenge"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r, echo=TRUE}
+rm(list = ls())
+
+packages <- c(
+  "rstudioapi", 
+  "tidyverse", 
+  "magrittr", 
+  "lintr", 
+  "raster", 
+  "viridis", 
+  "cowplot",
+  "rmarkdown",
+  'Rcpp',
+  "units",
+  "sf"
+)
+
+ipak <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)
+}
+ipak(packages)
+```
+
+
+```{r}
+path_folder <- "./data/chile/censo2017"
+name_file   <- "Microdatos_Manzana_Indeterminada.shp"
+censo2017 <- read_sf(path_folder)
+```
+
+```{r, include=FALSE}
+
+```
