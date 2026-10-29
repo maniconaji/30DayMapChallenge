@@ -1,0 +1,86 @@
+name: gis
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+
+  # Core científico
+  - numpy
+  - scipy
+  - pandas
+  - polars
+  - pyarrow
+  - numba
+  - statsmodels
+  - dask
+  - tqdm
+
+  # Visualización
+  - matplotlib
+  - seaborn
+  - plotly
+  - cmocean          # colormaps para oceanografía/atmósfera
+  - holoviews
+  - hvplot
+  - geoviews
+  - datashader
+
+  # Geoespacial (vectorial y raster)
+  - geopandas
+  - shapely
+  - pyogrio
+  - pyproj
+  - rasterio
+  - rioxarray
+  - osmnx
+  - folium
+  - contextily
+  - cartopy
+
+  # Ciencias atmosféricas / clima
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - zarr
+  - cftime
+  - cfgrib           # lectura de GRIB (ERA5, ECMWF)
+  - eccodes
+  - metpy            # cálculos meteorológicos
+  - siphon           # acceso a servidores THREDDS
+  - xgcm
+  - regionmask
+  - cdsapi           # descarga de ERA5 / Copernicus CDS
+  - cf_xarray
+  - bottleneck
+
+  # Machine Learning clásico
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - optuna
+  - shap
+
+  # Deep Learning
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-lightning
+  - tensorboard
+  # - pytorch-gpu     # descomenta esta y comenta "pytorch" si tienes GPU NVIDIA
+  # - jax             # alternativa/complemento para DL y computación diferenciable
+
+  # Jupyter
+  - jupyterlab
+  - ipython
+  - ipykernel
+  - ipywidgets
+  - traitlets
+  - jupyterlab-git
+
+  # Herramientas
+  - python-dotenv
+  - pywin32          # solo Windows
+  - pytest
+  - ruff
