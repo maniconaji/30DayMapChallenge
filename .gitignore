@@ -194,3 +194,4 @@ cython_debug/
 #other
 outputs/
 *cache/
+005_30daymapchallenge/
