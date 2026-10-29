@@ -1,6 +1,3 @@
-# Data
-/data/
-
 # Mac OS-specific storage files
 .DS_Store
 
@@ -192,6 +189,9 @@ cython_debug/
 
 
 #other
-outputs/
+# outputs/
 *cache/
 005_30daymapchallenge/
+docs/
+models/
+/data/
